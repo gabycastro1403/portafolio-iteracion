@@ -154,24 +154,28 @@ text {
     opacity: 0.7;
     border-radius: 10px;
   }
-   @media(max-width:600px){
-      .cursos__img{
-          width: 86%;
-      }
-      .cursos__descripcion{
-          width:46%;
-      }
-      .tolls-proyect{
-        position: relative;
-        float: right;
-        width: 92%;
-        margin-top: -8%;
-        margin-right: -3%;
-        margin-left: 13%;
-        margin-bottom:10%;
-      }
-      #gabyCastro{
-          display:none;
-      }
+  @media(max-width:600px){
+    .cursos__img{
+        width: 86%;
+        
+    }
+    .cursos__descripcion{
+        width:46%;
 
-  } 
+    }
+    .tolls-proyect{
+      position: relative;
+      float: right;
+      width: 92%;
+      margin-top: -8%;
+      margin-right: -3%;
+      margin-left: 13%;
+      margin-bottom:10%;
+
+    }
+    #gabyCastro{
+        display:none;
+
+    }
+
+} 
