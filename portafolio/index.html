@@ -17,6 +17,7 @@
   <link rel="shortcut icon" href="img/portfolio/icono-libelula.png">
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animated.css">
 
 </head>
 
@@ -47,7 +48,7 @@
   </nav>
 
   <!-- Masthead -->
-  <svg id="gabyCastro"viewBox="0 0 960 300">
+  <svg  class="animated fadeIn  slow"id="gabyCastro"viewBox="0 0 960 300">
     <symbol id="s-text">
         <text text-anchor="middle" x="50%" y="80%">Gaby Castro</text>
     </symbol>
@@ -64,7 +65,7 @@
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/portfolio/portqfolio-me.jpeg" alt="libelula">
+      <img class="masthead-avatar mb-5 " src="img/portfolio/portqfolio-me.jpeg" alt="libelula">
 
       <!-- Masthead Heading -->
       
@@ -105,8 +106,35 @@
       <!-- Portfolio Grid Items -->
       <div class="row">
 
-        <!-- Portfolio Item 1 -->
-        <div class="cursos__columna">
+        <!--Portfolio Item 1 -->
+        <div class="cursos__columna animated slideInLeft slow delay-1s ">
+            <img src="./img/portfolio/tasty-portafolio.png" alt="" class="cursos__img">
+            <div class="cursos__descripcion">
+                <h2 class="cursos__titulo">Tasty</h2>
+                <div class="cursos__txt">
+                    <p>Tasty es una interfaz web que muestra los datos de los restaurantes cerca de la ciudad.
+                      Muestra un mapa donde se puede ver la localización exacta del restaurant.
+                    </p> 
+                </div>
+            </div>
+        </div>
+        <div class="tolls-proyect animated slideInRight slow delay-1s" >
+          <div class="container">
+              <img class="tolls-card" src="img/portfolio/css-azulMarino.png">
+              <img class="tolls-card" src="img/portfolio/firebase-azulMarino.png">
+              <img class="tolls-card" src="img/portfolio/html-AzulMarino.png">
+              <img class="tolls-card" src="img/portfolio/js-AzulMarino.png">
+              <img class="tolls-card" src="img/portfolio/github-azulMarino.png">
+              <img class="tolls-card" src="img/portfolio/icons8-mapas-de-google-filled-100.png">
+              <img class="tolls-card" src="img/portfolio/angular-azulMarino.png"><br>
+          </div>
+              <a href="https://intelimetrica.firebaseapp.com/home"target=»_blank><button class="button-card" >Demo</button></a>
+              <a href="https://github.com/gabycastro1403/Intelimetrica/blob/rama-gaby/Angular-Intelimetrica/README.md"target=»_blank><button class="button-card" >Código</button></a>
+  
+          </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="cursos__columna animated slideInLeft slow delay-1s">
           <img src="./img/portfolio/burgerQueen.png" alt="" class="cursos__img">
           <div class="cursos__descripcion">
               <h2 class="cursos__titulo">Burguer Queen</h2>
@@ -117,7 +145,7 @@
               </div>
           </div>
       </div>
-      <div class="tolls-proyect" >
+      <div class="tolls-proyect animated slideInRight slow delay-1s" >
         <div class="container">
             <img class="tolls-card" src="img/portfolio/css-azulMarino.png">
             <img class="tolls-card" src="img/portfolio/firebase-azulMarino.png">
@@ -132,7 +160,7 @@
         </div>
 
         <!-- Portfolio Item 2 -->
-        <div class="cursos__columna">
+        <div class="cursos__columna animated slideInLeft slow delay-1s">
           <img src="./img/portfolio/resSocial.png" alt="" class="cursos__img">
           <div class="cursos__descripcion">
               <h2 class="cursos__titulo">Cuisine Divine</h2>
@@ -142,7 +170,7 @@
               </div>
           </div>
       </div>
-      <div class="tolls-proyect">
+      <div class="tolls-proyect animated slideInRight slow delay-1s">
         <div class="container">
          <img class="tolls-card" src="img/portfolio/css-azulMarino.png">
          <img class="tolls-card" src="img/portfolio/firebase-azulMarino.png">
@@ -157,7 +185,7 @@
 
 
         <!-- Portfolio Item 4 -->
-        <div class="cursos__columna card-small">
+        <div class="cursos__columna card-small animated slideInLeft slow delay-1s">
           <img src="./img/portfolio/pikepedia.png" alt="" class="cursos__img">
           <div class="cursos__descripcion">
               <h2 class="cursos__titulo">Pikapedía</h2>
@@ -168,7 +196,7 @@
                   </div>
           </div>
       </div>
-      <div class="tolls-proyect" >
+      <div class="tolls-proyect animated slideInRight slow delay-1s" >
         <div class="container2">
             <img class="tolls-card" src="img/portfolio/css-azulMarino.png">
             <img class="tolls-card" src="img/portfolio/html-AzulMarino.png">
@@ -181,7 +209,7 @@
 
 
         <!-- Portfolio Item 5 -->
-        <div class="cursos__columna card-small">
+        <div class="cursos__columna card-small animated slideInLeft slow delay-1s">
           <img src="./img/portfolio/mexicoCity.png" alt="" class="cursos__img">
           <div class="cursos__descripcion">
               <h2 class="cursos__titulo">Mexico City</h2>
@@ -192,7 +220,7 @@
                   </div>
           </div>
       </div>
-      <div class="tolls-proyect">
+      <div class="tolls-proyect animated slideInRight slow delay-1s">
         <div class="container2">
             <img class="tolls-card" src="img/portfolio/css-azulMarino.png">
             <img class="tolls-card" src="img/portfolio/html-AzulMarino.png">
@@ -232,7 +260,7 @@
           personas. Alegre y muy capaz de enfrentar retos.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead"><h1>Skills</h1>
+          <p class="lead"><h1>Skills</h1><img class="siembra" src="img/portfolio/icons8-siembra-manual-50.png">
             <li>Metodología AGILE</li>
             <li>SCRUM</li>
             <li>Liderazgo</li>
@@ -254,11 +282,11 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+   <!-- Contact Section -->
   <!-- <section class="page-section" id="contact">
-    <div class="container"
+    <div class="container">
     </div>
-  </section> -->
+  </section>  -->
 
   <!-- Footer -->
   <footer class="footer text-center">
