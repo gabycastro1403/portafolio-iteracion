@@ -61,6 +61,12 @@ text {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+.img-thumbnail{
+    padding: 0.50rem;
+    border: dashed 4px #4D5075;
+    background-color: #fbfbf3;
+
+}
 .cursos__columna {
     position: relative;
     margin-bottom: 30px;
