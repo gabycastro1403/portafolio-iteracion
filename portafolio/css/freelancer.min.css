@@ -131,6 +131,11 @@ text {
     margin-top: -10%;
    
 }
+.siembra{
+    display:inline-block;
+    margin: -33% 30% 0%;
+    
+}
 .button-card{
     background-color: #FFEBEE;
     color: #A81184;
@@ -153,7 +158,7 @@ text {
 }
 
 .container2{
-    margin-left: 13%
+    margin-left: 4%
 }
 .logo {
     width: 25%;
@@ -168,6 +173,9 @@ text {
     .cursos__descripcion{
         width:46%;
 
+    }
+    .siembra{
+        margin: -38% 32% 0%;
     }
     .tolls-proyect{
       position: relative;
